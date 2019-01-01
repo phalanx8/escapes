@@ -8,7 +8,7 @@ int main()
 	while(1) 
 	{
 		printf("\033[u%d  %d", i, (9-i)); // u geht zurueck zu der gespeicherten Zeile
-		fflush(stdout);
+		fflush(stdout); // man muss den output buffer leeren  ¯\_(ツ)_/¯ sonst kaputt
 		sleep(1);
 		i = (i >= 9) ? 0: i+1;
 	}
