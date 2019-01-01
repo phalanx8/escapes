@@ -1,12 +1,5 @@
 #include <stdio.h>
-#include <unistd.h>
 #include <time.h>
-
-/**
-* tilda: x=31;y=33
-*/
-
-
 
 int main()
 {
